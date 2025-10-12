@@ -7,6 +7,8 @@ while (condition) {
     // basically what you want ot loop
 }
 
+while one condition true, it does whats in the body until said condition is false
+
 example:
 
 ```js
@@ -40,5 +42,25 @@ for loops. this is where it gets difficult g.
 for (begin; condition; step) {
   // ... loop body ...
 }
-```
 
+// proper example
+
+for(let boss = 0; boss < 10; boss++){
+  console.log(boss g)
+
+  if (boss = 6){
+    console.log( yo g its over g )
+    break
+  }
+
+  // if you do a continue instead of break, itll skip the current iteration, so itll say yo g its over g instead of boss g and that.
+
+  if (boss = 6){
+    console.log( yo g its over g)
+    continue
+  }
+  
+}
+
+```
+break just breaks the loop, continue continues it and skips the iteration
